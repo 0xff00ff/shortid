@@ -8,6 +8,7 @@ double nextValue() {
   return _seed / (233280.0);
 }
 
+// sets seed for randon number generation
 void seed(double seed) {
   _seed = seed;
 }

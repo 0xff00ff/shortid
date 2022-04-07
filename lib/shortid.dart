@@ -5,7 +5,6 @@ import 'package:shortid/src/build.dart';
 int _clusterWorkerId = 0;
 
 class _Shortid {
-
   /// Set the seed.
   /// Highly recommended if you don't want people to try to figure out your id schema.
   /// exposed as shortid.seed(int)
@@ -26,7 +25,7 @@ class _Shortid {
 
   /// sets new characters to use in the alphabet
   /// returns the shuffled alphabet
-  String characters(String newCharacters) {
+  String characters(String? newCharacters) {
     if (newCharacters != null) {
       alphabet.characters(newCharacters);
     }

@@ -14,7 +14,7 @@ ShortId does not generate cryptographically secure ids, so don't rely on it to m
 ```dart
 import 'package:shortid/shortid.dart';
 
-console.log(shortid.generate());
+print(shortid.generate());
 // PPBqWA9
 ```
 
@@ -27,7 +27,7 @@ __Returns__ `string` non-sequential unique id.
 
 __Example__
 
-```js
+```dart
 users.insert({
   _id: shortid.generate(),
   name: '...',

@@ -1,8 +1,8 @@
-import 'package:shortid/src/random/random-byte.dart';
+import 'package:shortid/src/random/random_byte.dart';
 import 'dart:math';
 
+/// returns generated part of id
 String format(String alphabet, int size) {
-  //
   final mask = (2 << log(alphabet.length - 1) ~/ ln2) - 1;
   final step = (1.6 * mask * size / alphabet.length).ceil();
 

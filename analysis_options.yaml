@@ -3,8 +3,6 @@ analyzer:
     implicit-casts: false
     implicit-dynamic: false
   errors:
-# https://github.com/dart-lang/sdk/blob/master/pkg/analyzer/lib/src/error/codes.dart
-    strong_mode_down_cast_composite: error
     always_declare_return_types: error
     assignment_to_const: error
     assignment_to_final: error
@@ -19,7 +17,6 @@ analyzer:
     literal_only_boolean_expressions: error
     missing_return: error
     no_duplicate_case_values: error
-    not_enough_required_arguments: error
     recursive_getters: error
     test_types_in_equals: error
     type_annotate_public_apis: error
@@ -41,7 +38,6 @@ linter:
     - always_require_non_null_named_parameters
     - annotate_overrides
     - avoid_annotating_with_dynamic
-    - avoid_as
 #    - avoid_catches_without_on_clauses
 #    - avoid_catching_errors
 #    - avoid_classes_with_only_static_members
@@ -91,7 +87,6 @@ linter:
     - parameter_assignments
     - prefer_adjacent_string_concatenation
     - prefer_asserts_in_initializer_lists
-    - prefer_bool_in_asserts
     - prefer_collection_literals
     - prefer_conditional_assignment
     - prefer_const_constructors
@@ -116,7 +111,6 @@ linter:
     - slash_for_doc_comments
 #    - sort_constructors_first
     - sort_unnamed_constructors_first
-    - super_goes_last
     - test_types_in_equals
     - throw_in_finally
     - type_annotate_public_apis

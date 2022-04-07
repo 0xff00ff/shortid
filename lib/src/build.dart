@@ -10,10 +10,10 @@ const _REDUCE_TIME = 1459707606518;
 const _version = 6;
 
 // Counter is used when shortid is called multiple times in one second.
-int counter;
+int counter = 0;
 
 // Remember the last time shortid was called in case counter is needed.
-int previousSeconds;
+int previousSeconds = 0;
 
 /// Generate unique id
 /// Returns string id
