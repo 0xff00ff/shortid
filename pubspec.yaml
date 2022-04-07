@@ -1,6 +1,6 @@
 name: "shortid"
 homepage: https://github.com/0xff00ff/shortid
-version: 0.1.1
+version: 0.1.2
 description: "ShortId creates short non-sequential url-friendly unique ids. Perfect for url shorteners, MongoDB and Redis ids etc. (port from js)"
 dev_dependencies:
   test: ^1.20.2
